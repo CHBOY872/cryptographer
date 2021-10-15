@@ -10,7 +10,7 @@ If you would like to decrypt, write that:
     
     ./main decrypt
 
-Also, you can use this program by redirecting I/O streams:
+##### Also, you can use this program by redirecting I/O streams:
 If you want to put your input message into "main.txt", write:
     
     ./main crypt > main.txt
