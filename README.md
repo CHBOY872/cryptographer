@@ -2,6 +2,13 @@
 The project for cryptographing messages. You can set your message into this programm and you can get a cryptographed message. Also, if you would like to decrypt this message, you can also use this programm.
 
 ### FOR LINUX:
+#### Compiling:
+Compile this program by using this command in terminal:
+
+    gcc ./main.c ./crypto.c ./strcompare.c -o main
+    
+#### Using this program
+
 If you would like to crypt your message, write that in terminal:
 
     ./main crypt
